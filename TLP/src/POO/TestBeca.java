@@ -47,7 +47,7 @@ public class TestBeca {
 				break;
 			}
 			listado+=es.toString()+"\n";
-			res=(byte)Tools.seguirSino();
+			res=(byte)Tools.seguirSino("¿Desea continuar?");
 		}while(res!=1);
 		Tools.imprimePantalla(listado+"\n\n\n Alumnos Con Beca Alimenticia\n\n"+becado);
 	}

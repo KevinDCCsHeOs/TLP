@@ -31,8 +31,8 @@ public class Tools {
 		public static String leerString(String msje) {
 			return(JOptionPane.showInputDialog(null,msje,"Dato de entrada",JOptionPane.INFORMATION_MESSAGE));
 		}
-		public static int seguirSino() {
-			return JOptionPane.showConfirmDialog(null,"Deseas continuar","Capturando datos",JOptionPane.YES_NO_OPTION);
+		public static int seguirSino(String msje) {
+			return JOptionPane.showConfirmDialog(null,msje,"Menu",JOptionPane.YES_NO_OPTION);
 		}
 		public static int leerEntero(String msje) {
 			return (Integer.parseInt(JOptionPane.showInputDialog(null,msje,"Lectura int: ",JOptionPane.INFORMATION_MESSAGE)));
